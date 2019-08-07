@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         rollButton.setOnClickListener { rollDice() }
 
         val resultText: TextView = findViewById(R.id.result_text)
-        resultText.text = "Dice Rolled!"
+        resultText.text = "Dice Rolled!! "
     }
 
     private fun rollDice(){
